@@ -147,6 +147,7 @@ class BarangController extends GetxController {
       );
       await getAllBarang();
       Get.back();
+      Get.back();
     } catch (e) {
       Get.snackbar('error', e.toString());
     } finally {
